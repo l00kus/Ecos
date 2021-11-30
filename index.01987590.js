@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",(function(){eventListeners()}));const fars=document.querySelector(".fars");function eventListeners(){fars.addEventListener("click",desplegar),document.body.addEventListener("click",changeIcon)}function desplegar(){document.querySelector(".faq-text").classList.toggle("show")}function changeIcon(){const e=document.querySelector(".fa-plus-square"),t=document.querySelector(".fa-minus-square");e.classList.toggle("hidden"),t.classList.toggle("show")}
+//# sourceMappingURL=index.01987590.js.map
